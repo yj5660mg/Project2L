@@ -16,6 +16,7 @@ if __name__ == '__main__':
 
 
 def camelcase(word):
+    "yes"
     ''' Convert word to have uppercase first letter, rest in lowercase'''
     return word[0:1].upper() + word[1:].lower()
     # Slices don't produce index out of bounds errors.
